@@ -3,7 +3,6 @@ const path = require('path');
 
 const getDriveService = () => {
   const KEYFILEPATH = path.join(__dirname, 'endpoint-uploadfile-6771296941f0.json');
-  console.log(KEYFILEPATH)
   const SCOPES = ['https://www.googleapis.com/auth/drive'];
 
   const auth = new google.auth.GoogleAuth({
